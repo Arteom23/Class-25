@@ -1,0 +1,615 @@
+/* All Common Css Start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+/* All Common Css Start */
+/* Navbar pattern */
+.navbar {
+ 
+  position: absolute;
+  top: 25px;
+  left: 0px;
+  z-index: 777;
+  width: 100%;
+   
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    color:#fff;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #ac9a86;
+}
+/* Navbar pattern */
+/* Banner pattern */
+#banner{
+    text-align: center;
+   
+    background: url(../images/Waxom-Hemepage.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+.overlay{
+    padding: 380px 0px;
+    background: rgba(5, 4, 4, 0.7);
+}
+.banner_text h3{
+    color: #fff;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.banner_text h1{
+    padding: 25px 0px;
+    color: #fff;
+    font-size: 52px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+}
+.banner_text p {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    width: 600px;
+    margin:0 auto;
+    line-height: 24px;
+   
+}
+.banner_text a{
+    padding:21px 40px 18px ;
+    color: #fff;
+    background: #998675;
+    border-radius: 5px;
+    border-bottom: 2px solid #736357;
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Banner pattern */
+/* Service Part */
+#service_part{
+    padding: 50px 0px 75px;
+}
+.service_item{
+    position: relative;
+}
+.service_item i{
+    font-size: 40px;
+    transition: all linear 0.4s;
+}
+.service_item h4{
+    padding: 20px 0px ;
+    color: #555555;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    transition: all linear 0.4s;
+}
+.service_item p{
+   width: 269px;
+   font-size: 14px;
+   line-height: 19px;
+   font-family:'Montserrat', sans-serif;
+   font-weight: 300;
+   color: #ac9a86;
+   margin: 0 auto;
+   transition: all linear 0.4s;
+}
+.service_item::after{
+   content: '';
+   position: absolute;
+   height: 3px;
+   width: 70px;
+   background: #f1eee9;
+   bottom:  -30px;
+   left: 50%;
+   transform: translateX(-50%);
+   transition: all linear 0.4s;
+}
+.service_item:hover i {
+    color: #c7b299;
+    font-size: 45px;
+}
+.service_item:hover h4 {
+    color: #c7b299;
+}
+.service_item:hover p {
+    color: #c7b299;
+}
+.service_item:hover::after{
+    background: #c7b299;
+    width: 100px;
+}
+    /* Service Part */
+    #idea{
+        padding-top: 80px;
+        background: #fbfaf8;
+    }
+    .common_title h3{
+        font-size: 30px;
+        font-weight: 600;
+        font-family: 'Raleway', sans-serif;
+    }
+   
+    .common_title_text p{
+        color: #8c8c8c;
+        font-size: 16px;
+        font-family:'Montserrat', sans-serif;
+        font-weight: 300;
+        line-height: 28px;
+       
+        padding: 20px 0px 35px;
+    } 
+    /* Service Part */
+    /* Multiple Wordpress Part */
+    #Purchace_part{
+        background: linear-gradient(to right ,#261e1b, #4a3126);
+    }
+    
+    .right_text h3{
+        color: #fff;
+        padding-top: 50px;
+        font-size: 28px;
+        font-weight: 400;
+        font-family: 'Raleway', sans-serif;
+        display: inline-block;
+    }
+    .right_text span{
+        color: #bfab93;
+        
+        font-size: 28px;
+        font-weight: 400;
+        font-family: 'Raleway', sans-serif;
+    }
+    .right_text p{
+        color: #4f4642;
+        padding-top: 15px;
+        font-size: 18px;
+        font-family:'Montserrat', sans-serif;
+        font-weight: 300;
+    }
+    .banner_text a{
+        margin: 50px 0px;
+    }
+     /* Multiple Wordpress Part */
+     /* Project pattern */
+     #Projects{
+         padding: 70px 0px 65px 0px;
+        }
+        .Projects_btn{
+        display: flex;
+        justify-content: space-between;
+     }
+    .Projects_btn button{
+        color: #8c8c8c;
+        padding: 10px 15px;
+        font-size: 18px;
+        font-family:'Montserrat', sans-serif;
+        font-weight: 300;
+        border: 1px solid#8c8c8c;
+        border-radius: 5px;
+    }
+    .Projects_btn button:hover{
+        color: #fff;
+        background: #998675;
+        border: 1px solid#998675;
+    }
+    .Project_items:hover .img_overlay{
+        opacity: 1;
+        visibility: visible;
+    }
+    .Project_items:hover .shape{
+        background: #362f2d;
+    }
+    .Project_items:hover .Project_txt{
+        background: #362f2d;
+    }
+    
+    .Project_img{
+        position: relative;
+    }
+    .img_overlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: #2f2f2fe7;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.3s;
+    }
+    .Project_links{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .Project_links i{
+color: #fff;
+font-size: 25px;
+transition: 0.3s;
+    }
+    .Project_links i:hover{
+        color: #c7b299;
+        font-size: 40px;
+    }
+    .first{
+        margin-right: 10px;
+    }
+    .shape{
+        position: absolute;
+       width: 30px;
+       height: 30px;
+       background: #fbfaf8;
+       transform: rotate(45deg);
+       bottom: -6%;
+       left: 15%;
+       transition: 0.3s;
+    }
+    .Project_txt{
+        background: #fbfaf8;
+        transition: 0.3s;
+    }
+    .Project_txt h3{
+        color: #c7b299;
+        padding-top: 30px;
+        padding-left: 30px;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'Raleway', sans-serif;
+        transition: 0.2s;
+    }
+    .Project_txt p{
+        color: #8c8c8c;
+        padding-top: 15px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        font-size: 14px;
+        font-weight: 300;
+        font-family:'Montserrat', sans-serif;
+        transition: 0.3s;
+    }
+   
+    .Project_items:hover .Project_txt h3 {
+        color: #fff;
+    }
+    
+    .Project_items:hover .Project_txt p {
+        color: #c7b299;
+    }
+    /* Project pattern */
+    /* Vedio 
+         pattern */
+    #Vedio{
+       
+       background: url(../images/Project4.jpg);
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+      
+    }
+    .vedio_overlay{
+        padding-top: 205px;
+        padding-bottom: 260px;
+        background: rgba(0, 0, 0, 0.5); 
+    }
+    .vedio{
+        width: 70px;
+        height: 70px;
+        background: #595e63;
+        border-radius: 50%;
+        position: relative;
+    }
+    .vedio:hover .vedio_icon{
+        border: 4px solid#fff;
+    }
+    .vedio:hover .vedio_icon i{
+        font-size: 30px;
+    }
+   .vedio_icon{
+    width: 50px;
+    height: 50px;
+    background: #595e63;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 0.4s;
+
+   }
+   .vedio_icon i{
+    margin-left: 2px;
+    line-height: 50px;
+    font-size: 28px;
+    color: #fff;
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 0.4s;
+   
+   }
+   .vedio_txt h3{
+    padding: 40px 0px 30px 0px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+
+   }
+   .vedio_txt p{
+    padding-bottom: 10px;
+    color: #fff;
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family:'Montserrat', sans-serif;
+
+   }      
+        /* Vedio
+                 pattern */
+ /* Mobile pattern */
+ #Mobile{
+    padding-top: 40px;
+ }
+  .mobile_txt h3{
+    padding-top: 190px;
+    color: #555;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .mobile_txt p{
+    padding-top: 35px;
+    color: #959595;
+    font-size: 14px;
+    font-weight: 300;
+    font-family:'Montserrat', sans-serif;
+    line-height: 28px;
+  }
+  .mobile_icons{
+    padding-top: 70px;
+ }  
+ .mobile_icons li i{
+    margin-top: 4px;
+    color: #fff;
+    font-style: 5px;
+    padding: 7px 10px;
+    border-radius: 60%;
+    background: #c7b299;
+   
+ }
+ .mobile_icons li p{
+    color: #959595;
+    display: inline-block;
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family:'Montserrat', sans-serif;
+ }
+ .mobile_icons ul li{
+margin-bottom: 10px;
+margin-left: 25px;
+
+ }
+ /* Mobile pattern */
+ /* Our progress  */
+ #Our_Progress{
+    padding: 70px 0px;
+    background: linear-gradient(to right,#261e1b,#4a3126);
+  
+ }
+ #Our_Progress .row{
+    display: flex;
+    justify-content: center;
+ }
+ .Progress{
+    position: relative;
+ }
+ .Progress i{
+    font-size: 48px;
+    color:#b39f89;
+}
+.Progress h3{
+    padding: 36px 0px 20px;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+}
+.Progress p{
+    font-family:'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b39f89;
+ }
+ .Progress::after{
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 40px;
+    background: #f1eee9;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+ }
+  /* Our progress  */
+ /* Posts pattern */
+ #Posts{
+     padding: 100px 0px;
+ }
+ .Posts_items:hover .Post_img_overlay{
+    opacity: 1;
+    visibility: visible;
+}
+
+.Posts_items:hover .Posts_txt{
+    background: #362f2d;
+}
+
+.Posts_img{
+    position: relative;
+}
+.Posts_img ul{
+    width: 50%;
+    height: 12%;
+    margin:0 auto;
+    position: absolute;
+    text-align: center;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+}
+.one{
+    margin-left: 10px;
+}
+.Posts_img ul li{
+    line-height: 100%;
+    padding:10px ;
+    float: left;
+    border-radius: 50%;
+    background: #748698;
+    transition: 0.4s;
+}
+.Posts_img ul li:hover{
+    border: 4px solid#fff;
+    padding:10px ;
+    bottom: 10%;
+}
+.Posts_items:hover .date h3{
+    background: #c7b299;
+}
+.Posts_items:hover .date p{
+    background: #a48d72;
+}
+
+.date{
+    width: 50px;
+    height: 60px;
+   
+    position: absolute;
+    top: 10%;
+    left: 04%;
+}
+.date h3{
+    
+    color: #fff;
+    line-height: 35px;
+    background: #363636;
+    font-size: 24px;
+    font-weight: 300;
+    font-family:'Montserrat', sans-serif;
+    
+}
+.date p{
+    
+    color: #fff;
+    line-height: 25px;
+    background: #252525;
+    
+}
+.Post_img_overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #2f2f2fe7;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+.Posts_txt{
+    background: #fbfaf8;
+    transition: 0.3s;
+}
+.Posts_txt h3{
+    color: #555;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    transition: 0.2s;
+}
+.Posts_txt h2{
+    color: #c7b299;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-size: 17px;
+    font-weight: 300;
+    font-family:'Montserrat', sans-serif;
+    display: inline-block;
+    transition: 0.3s;
+}
+.Posts_txt p{
+    color: #afafaf;
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 11px;
+    font-weight: 300;
+    font-family:'Montserrat', sans-serif;
+    line-height: 22px;
+    transition: 0.3s;
+}
+.Posts_txt .arrow{
+    display: inline-block;
+    font-size: 15px;
+    padding-left: 10px;
+    color: #c7b299;
+}
+.Posts_items:hover .Posts_txt h3 {
+    color: #c7b299;
+}
+
+.Posts_items:hover .Posts_txt p {
+    color: #e1e0e0;
+}
+.post_icon{
+    margin-top: 40px;
+}
+.post_icon i{
+    color: #d1d1d1;
+    font-size: 15px;
+    padding: 7px 10px;
+    border-radius: 50%;
+    border: 2px solid#d1d1d1;
+}
+.post_icon .right{
+    margin-right: 10px;
+    margin-left: 50px;
+}
+.post_icon i:hover{
+    color: #c7b299;
+    border: 2px solid#c7b299;
+}
+    /* Posts pattern */
